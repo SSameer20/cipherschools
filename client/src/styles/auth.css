@@ -1,0 +1,108 @@
+.authentication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form{
+    width: 25vw;
+    min-height: 40vh;
+    background-color: #1E201E;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.active:hover, .absent:hover{
+    cursor: pointer;
+}
+
+.form-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.form-btn .active{
+    border-bottom: 0.1px solid rgb(255, 246, 246);
+    cursor: pointer;
+    color: rgb(251, 247, 247);
+}
+
+.form-btn .absent{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.532);
+    
+}
+
+
+
+input{
+    padding: 10px 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 0.1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.form-info .profile{
+border-radius: 50%;
+   height: 20vw;
+}
+
+.btn{
+    padding: 5px 20px;
+    border: 0.1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.login .btn:hover{
+    transition: 0.4s;
+    background-color: #87868b;
+    color: rgb(13, 12, 12);
+    border: none;
+    cursor: pointer;
+}
+
+.register .btn:hover{
+   
+    transition: 0.4s;
+    background-color: #87868b;
+    color: rgb(13, 12, 12);
+    border: none;
+    cursor: pointer;
+
+}
+
+input:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+    /* border-color: #836FFF; */
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .profile{
+        border-radius: 50%;
+       height: 20vw;
+    }
+  }
